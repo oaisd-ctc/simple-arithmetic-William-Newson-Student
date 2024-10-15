@@ -83,6 +83,7 @@
         Console.WriteLine("Stopping");
         Environment.Exit(1);
     }
+
     else 
     {
         Console.WriteLine("Invalid Opperator!");
