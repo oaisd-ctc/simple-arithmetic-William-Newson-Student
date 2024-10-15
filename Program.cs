@@ -1,6 +1,6 @@
 ﻿static void Calc()
 {
-    Console.WriteLine("what operator? (+, -, *, /, %)");
+    Console.WriteLine("what operator? (+, -, *, /, % or stop)");
     string? opp = Console.ReadLine();
     if (opp == "+") 
     {
@@ -75,6 +75,13 @@
         Console.WriteLine(" ");
         Console.WriteLine(" ");
         Calc();
+    }
+
+    else if (opp == "stop")
+    {
+    Console.WriteLine("Provide 1 number to perform the modulus operation");
+        Console.WriteLine("Stopping");
+        Environment.Exit(1);
     }
     else 
     {
